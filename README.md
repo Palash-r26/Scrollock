@@ -24,13 +24,13 @@ All of this happens in real time, without rooting the device.
 
 ## Key Features :
 
-Blocks **YouTube Shorts only** (not full YouTube)  
-Blocks **Instagram Reels only** (not full Instagram)  
-Instant popup message when content is blocked  
-No noticeable delay in detection  
-Works completely offline  
-No ads, no trackers  
-Lightweight and battery-friendly  
+- Blocks **YouTube Shorts only** (not full YouTube)  
+- Blocks **Instagram Reels only** (not full Instagram)  
+- Instant popup message when content is blocked  
+- No noticeable delay in detection  
+- Works completely offline  
+- No ads, no trackers  
+- Lightweight and battery-friendly  
 
 ## How It Works :
 Scrollock uses the Android Accessibility API to:
