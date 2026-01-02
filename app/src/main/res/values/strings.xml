@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scrollock</string>
+
+    <!-- Top bar -->
+    <string name="menu_desc">Menu</string>
+    <string name="welcome">Welcome</string>
+    <string name="user_name_placeholder">Dani Martinez</string>
+
+    <!-- Button and status -->
+    <string name="activate">ACTIVATE</string>
+    <string name="blocker_inactive">BLOCKER INACTIVE</string>
+    <string name="blocker_active">BLOCKER ACTIVE</string>
+
+    <!-- Bottom nav -->
+    <string name="home">Home</string>
+    <string name="blocker">Blocker</string>
+
+    <!-- Timer -->
+    <string name="timer_placeholder">2:13:45</string>
+    <string name="connected_apps_screen">Connected Apps Screen</string>
+    <string name="change_password_screen">Change Password Screen</string>
+    <string name="settings">Settings</string>
+    <string name="setting_title">Setting Title</string>
+    <string name="setting_subtitle">Subtitle</string>
+    <string name="setting_icon_desc">Setting icon</string>
+    <string name="setting_arrow_desc">Forward arrow</string>
+
+</resources>
+

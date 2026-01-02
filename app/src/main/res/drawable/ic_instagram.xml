@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FFD62976" android:offset="0"/>
+                <item android:color="#FFFF226B" android:offset="0.22"/>
+                <item android:color="#FFFF4C5C" android:offset="0.38"/>
+                <item android:color="#FFFF8A48" android:offset="0.59"/>
+                <item android:color="#FFFFD533" android:offset="0.78"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Group for the white camera elements -->
+    <group
+        android:translateX="-1.0"
+        android:translateY="-1.0">
+        <!-- Main Camera Body (Rounded Rectangle Stroke) -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M35.3,14.5h39.4c11.5,0 20.8,9.3 20.8,20.8v39.4c0,11.5 -9.3,20.8 -20.8,20.8H35.3c-11.5,0 -20.8,-9.3 -20.8,-20.8V35.3C14.5,23.8 23.8,14.5 35.3,14.5z"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="8"/>
+        <!-- Center Lens (Circle Stroke) -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M55,70.8A15.8,15.8 0,1 1,70.8 55,15.8 15.8,0 0,1 55,70.8Z"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="8"/>
+        <!-- The small top-right dot has been removed from this version -->
+    </group>
+</vector>

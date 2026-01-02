@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2788b8">
+
+    <LinearLayout
+        android:id="@+id/logoCircle"
+        android:layout_width="142dp"
+        android:layout_height="131dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/circle_white_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="93dp"
+            android:contentDescription="Scrollock App Logo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/scrollock_logo" />
+
+    </LinearLayout>
+<!--    !Arc Icons Container &ndash;&gt;-->
+
+    <FrameLayout
+        android:id="@+id/arcContainer"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_instagram"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_twitter"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_youtube"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/icon4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_facebook"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/icon5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_snapchat"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/icon6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_linkedin"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:text="GET STARTED"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:alpha="0" /> <!-- initially hidden -->
+</RelativeLayout>
