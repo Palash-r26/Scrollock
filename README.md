@@ -51,24 +51,6 @@ Scrollock uses the Android Accessibility API to:
 - **WindowManager Overlay** – Popup message display  
 - **Android SDK** – App framework  
 
-## Project Structure :
-Scrollock/
-│
-├── BlockingService.java
-│ └── Accessibility service that listens to screen changes
-│
-├── KeywordBlocker.java
-│ └── Detects Shorts/Reels and triggers blocking logic
-│
-├── PopupManager.java
-│ └── Displays instant overlay popup messages
-│
-├── AndroidManifest.xml
-│ └── Declares accessibility service and permissions
-│
-├── res/xml/accessibility_service_config.xml
-│ └── Accessibility service configuration 
-
 ### Permissions Required :
 
 Scrollock requires **Accessibility Permission** to function.
